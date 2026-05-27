@@ -6,7 +6,6 @@ public class EmpleadoServicio {
     private ArrayList<Empleado> empleados = new ArrayList<>();
 
     public void agregarEmpleado(Empleado e) {
-
         for (Empleado emp : empleados) {
             if (emp.getCedula().equals(e.getCedula())) {
                 System.out.println("Cedula duplicada");
@@ -43,7 +42,6 @@ public class EmpleadoServicio {
         if (encontrado != null) {
             empleados.remove(encontrado);
             System.out.println("Empleado eliminado");
-
         } else {
             System.out.println("Registro no encontrado");
         }
