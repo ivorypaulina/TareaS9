@@ -1,6 +1,7 @@
 package modelo;
 
 public abstract class Empleado {
+
     private String cedula;
     private String nombre;
     private int edad;
